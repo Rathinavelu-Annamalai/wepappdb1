@@ -13,7 +13,7 @@ terraform {
 features {}
 }
 resource "azurerm_resource_group" "dev" {
-  name     = "poc-rg-cu-ise2""
+  name     = "poc-rg-cu-ise2"
   location = "Central US"
   tags = {
     environment = "dev"
